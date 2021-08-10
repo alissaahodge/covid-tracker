@@ -7,7 +7,12 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatSliderModule} from '@angular/material/slider';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatCardModule} from '@angular/material/card';
+import {FlexLayoutModule} from '@angular/flex-layout';
+import {HttpClientModule} from '@angular/common/http';
+import {ChartsModule} from 'ng2-charts';
+import {from} from 'rxjs';
+import {CountUpModule} from 'ngx-countup';
 import {AppComponent} from './app.component';
 
 @NgModule({
@@ -24,7 +29,11 @@ import {AppComponent} from './app.component';
     MatSliderModule,
     MatDividerModule,
     MatToolbarModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    HttpClientModule,
+    MatCardModule,
+    ChartsModule,
+    CountUpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
