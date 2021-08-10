@@ -1,0 +1,81 @@
+<mat-toolbar color="primary" class="fixed-header">
+  <mat-toolbar-row>
+    <span class="menu-spacer"></span>
+    <div>
+      <a class="navbar-brand" href="#">
+        <i class="fas fa-home" style="font-size: 1em;"></i>
+      </a>
+      <a mat-button href="#statistic" class="nav-item">Statistics</a>
+      <a mat-button routerLink="/customer-create" class="nav-item">Contact</a></div>
+  </mat-toolbar-row>
+</mat-toolbar>
+<main>
+  <section id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="h1-title">[ COVID 19 ]</h1>
+          <p class="text-center"> Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered
+            coronavirus.<br>
+            Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without
+            special treatment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="statistic">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col text-left">
+          <h2>Statistics</h2>
+        </div>
+      </div>
+      <div class="row">
+        graph here
+      </div>
+    </div>
+
+  </section>
+<section id="footer">
+  <div class="container">
+    <div fxLayout="row">
+      <div fxLayout="column" class="col-md-8 col-sm-6" fxFlex="40%">
+        <h3>About me</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusantium quas quaerat praesentium delectus veritatis voluptatibus aliquam odio deserunt id unde, culpa quasi, laboriosam provident ipsum, tempore dolores eum iusto.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat libero magnam molestias consectetur? Maxime fugit placeat tenetur nam? Quisquam voluptates exercitationem non natus sapiente magni similique placeat corrupti impedit blanditiis.</p>
+        <div fxLayout="row">
+          <div fxLayout="column"  class="list-inline-item">
+            <a href="#">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </div>
+          <div fxLayout="column"  class="list-inline-item">
+            <a href="#">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+          <div fxLayout="column"  class="list-inline-item">
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+          <div fxLayout="column"  class="list-inline-item">
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div></div>
+      <div fxLayout="column" fxFlex="10%"></div>
+      <div class="col-md-4 col-sm-6" fxLayout="column" fxFlex="50%">
+        <h3>Keep in touch</h3>
+        <ul class="list-unstyled">
+          <li><p><strong><i class="fas fa-map-marker-alt"></i> Address:</strong> Location, Street, Code</p></li>
+          <li><p><strong><i class="fas fa-envelope"></i> Email:</strong> <a href="#"> info@infomail.com</a></p></li>
+          <li><p><strong><i class="fas fa-phone"></i> Phone:</strong> +01 123 45 678</p></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+</section>
+</main>

@@ -1,0 +1,81 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+@media (max-width: 768px) {
+  #header img {
+    margin: 0 auto;
+  }
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: #dedede;
+}
+
+#header {
+  background: url('assets/images/background.jpg') center center no-repeat;
+  background-size: cover;
+  height: 60vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding:100px;
+}
+
+#header .h1-title {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#statistic {
+  padding: 5rem 0;
+}
+#statistic .card-text {
+  font-weight: bold;
+  font-size: 50px;
+  color: tomato;
+}
+#statistic .card-infected {
+  border-bottom-color: blue;
+  border-bottom-width: 10px;
+}
+#statistic .card-recovered {
+  border-bottom-color: lightgreen;
+  border-bottom-width: 10px;
+}
+#statistic .card-deaths {
+  border-bottom-color: lightsalmon;
+  border-bottom-width: 10px;
+}
+
+
+#footer {
+  padding: 4rem;
+  background-color: #aaaaaa;
+  color: #eeeeee;
+}
+
+#footer a {
+  color: purple;
+}
+#footer a:hover {
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+#footer .fas {
+  padding: 5px;
+}
