@@ -42,40 +42,10 @@ body {
 }
 
 #statistic {
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 #statistic .card-text {
   font-weight: bold;
   font-size: 50px;
-  color: tomato;
-}
-#statistic .card-infected {
-  border-bottom-color: blue;
-  border-bottom-width: 10px;
-}
-#statistic .card-recovered {
-  border-bottom-color: lightgreen;
-  border-bottom-width: 10px;
-}
-#statistic .card-deaths {
-  border-bottom-color: lightsalmon;
-  border-bottom-width: 10px;
-}
-
-
-#footer {
-  padding: 4rem;
-  background-color: #aaaaaa;
-  color: #eeeeee;
-}
-
-#footer a {
-  color: purple;
-}
-#footer a:hover {
-  color: #ffffff;
-  transition: all 0.3s ease-in-out;
-}
-#footer .fas {
-  padding: 5px;
+  color: #5764d2;
 }

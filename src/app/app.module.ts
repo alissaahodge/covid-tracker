@@ -8,6 +8,7 @@ import {MatSliderModule} from '@angular/material/slider';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {HttpClientModule} from '@angular/common/http';
 import {ChartsModule} from 'ng2-charts';
@@ -29,6 +30,7 @@ import {AppComponent} from './app.component';
     MatSliderModule,
     MatDividerModule,
     MatToolbarModule,
+    MatButtonModule,
     FlexLayoutModule,
     HttpClientModule,
     MatCardModule,
