@@ -6,19 +6,21 @@
         <i class="fas fa-home" style="font-size: 1em;"></i>
       </a>
       <a mat-button href="#statistic" class="nav-item">Statistics</a>
-      <a mat-button routerLink="/customer-create" class="nav-item">Contact</a></div>
+      <a mat-button href="#footer" class="nav-item">Contact</a></div>
   </mat-toolbar-row>
 </mat-toolbar>
 <main>
   <section id="header">
+    <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col">
           <h1 class="h1-title">[ COVID 19 ]</h1>
-          <p class="text-center"> Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered
+          <br>
+          <h3 class="text-center"> Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered
             coronavirus.<br>
             Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without
-            special treatment.</p>
+            special treatment.</h3>
         </div>
       </div>
     </div>
@@ -96,6 +98,8 @@
     <div class="container">
       <div class="row">
         <div class="col chart-wrapper">
+           <mat-card class="mat-elevation-z5">
+              <mat-card-content>
           <canvas *ngIf="global" baseChart
                   [chartType]="'line'"
                   [datasets]="lineChartData"
@@ -108,12 +112,14 @@
                   [labels]="barChartLabels"
           >
           </canvas>
+              </mat-card-content>
+             </mat-card>
         </div>
       </div>
     </div>
   </section>
   <div class="footer-basic">
-    <footer>
+    <footer id="footer">
       <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i
         class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i
         class="icon ion-social-facebook"></i></a></div>

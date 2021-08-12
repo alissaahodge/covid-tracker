@@ -56,7 +56,7 @@
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  color: #aaa;
+  color: #ffffff;
   margin-bottom: 0;
 }
 
@@ -80,4 +80,8 @@
 
 .number {
   padding: 30px;
+}
+
+.navbar-brand{
+  color: white;
 }

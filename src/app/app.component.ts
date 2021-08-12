@@ -23,11 +23,9 @@ export class AppComponent implements OnInit {
       data: [65, 64, 33, 44], label: 'Temp label'
     }
   ];
-  lineChartType= 'line';
   lineChartLabels: any[] = [
     'Label01', 'Label01', 'Label03'
   ];
-  barChartType = 'bar';
   barChartLabels: any[] = [
     'Infected', 'Recovered', 'Deaths'
   ];
