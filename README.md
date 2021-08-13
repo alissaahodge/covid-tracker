@@ -1,10 +1,12 @@
-# Frontend
+#COVID Tracker
 
+##About
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<br>This is a covid-19 tracker which allows the user to view deaths, recoveries and infection stats globally or by
+selecting a specific country. This data is represented on the dashboard and on a chart. 
+## Frontend
+Run `npm install`<br>
+Run `ng serve` for a dev server.<br> Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
