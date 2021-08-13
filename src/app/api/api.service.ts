@@ -12,7 +12,12 @@ export class ApiService {
 
   constructor(private http: HttpClient) {
   }
-
+    /**
+     * fetches global stats
+     *
+     * @param none
+     * @returns {Observable<any>}
+     */
   fetchData(): Observable<any> {
     return this.http.get(this.baseUrl)
       .pipe(
@@ -22,6 +27,12 @@ export class ApiService {
       );
   }
 
+   /**
+     * fetches stats by country
+     *
+     * @param country
+     * @returns {Observable<any>}
+     */
   fetchDataByCountry(country: string): Observable<any> {
     return this.http.get(this.baseUrl + '/countries/' + country)
       .pipe(
@@ -31,7 +42,12 @@ export class ApiService {
       );
   }
 
-
+ /**
+     * fetches daily data
+     *
+     * @param none
+     * @returns {Observable<any>}
+     */
   fetchDailyData(): Observable<any> {
     return this.http.get(this.baseUrl + '/daily')
       .pipe(
@@ -41,6 +57,12 @@ export class ApiService {
       );
   }
 
+   /**
+     * fetches countries
+     *
+     * @param none
+     * @returns {Observable<any>}
+     */
   fetchCountries(): Observable<any> {
     return this.http.get(this.baseUrl + '/countries')
       .pipe(
