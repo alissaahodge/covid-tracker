@@ -1,6 +1,6 @@
-#COVID Tracker
+# COVID Tracker
 
-##About
+## About
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
 <br>This is a covid-19 tracker which allows the user to view deaths, recoveries and infection stats globally or by
 selecting a specific country. This data is represented on the dashboard and on a chart. 
