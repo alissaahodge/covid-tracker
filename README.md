@@ -8,6 +8,11 @@ selecting a specific country. This data is represented on the dashboard and on a
 Run `npm install`<br>
 Run `ng serve` for a dev server.<br> Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+
+<code>
+<img src='https://github.com/alissaahodge/covid-tracker/blob/master/project_screenshots/Screenshot%202021-12-31%20at%2011.46.47%20AM.png'/>
+</code>
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
